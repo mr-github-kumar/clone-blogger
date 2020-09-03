@@ -1,0 +1,160 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  color: #343434;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+img {
+  width: 150px;
+}
+
+a {
+  color: #ffe66d;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 45px;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+h1,
+h2 {
+  font-family: "Caveat", cursive;
+  font-weight: 300;
+  margin: 0;
+}
+
+.content-wrap {
+  max-width: 800px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
+.divider > section:last-of-type {
+  border-bottom: none;
+}
+
+header {
+  background: #2f3061;
+  color: #f7fff7;
+  text-align: center;
+}
+
+.profile-pic > div {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-image: url(../img/sk1.png);
+  background-size: cover;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.posts {
+  background: #f7fff7;
+}
+
+.posts a {
+  color: #2f3061;
+}
+
+.posts .btn {
+  color: #f7fff7;
+  background: #2f3061;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+  display: inline-block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.posts .btn:hover {
+  background: rgba(47, 48, 97, 80%);
+}
+
+/*--------Post style on web*/
+.publish-post-body {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.publish-post-body:nth-child(odd) {
+  background-color: #ffe66d;
+}
+
+.publish-post-image {
+  width: 25%;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2f3061;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.publish-post-image img {
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.publish-post-info {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: left;
+  width: 75%;
+  padding: 0 0 0 20px;
+}
+
+.contact-list li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.contact-list a {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+footer {
+  padding: 25px;
+  width: 100%;
+  background: #343434;
+  color: #f7fff7;
+  text-align: center;
+}
